@@ -1,4 +1,4 @@
-# Projeto CRUD: Gestão de Livros com Spring Boot e Thymeleaf
+ # Projeto CRUD: Gestão de Livros com Spring Boot e Thymeleaf
 
 ## Objetivo
 
@@ -48,8 +48,8 @@ A aplicação será iniciada na porta padrão do Spring Boot (8081) ou na porta 
 
 ### 1. Tela de Listagem (Home)
 
-![Lista de livros](src/main/resources/static/img/)
+![Lista de livros](src/main/resources/static/img/Livros%20cadastrados.png)
 
 ### 2. Tela de Cadastro/Edição
 
-![Cadastro de livros](src/main/resources/static/img/)
+![Cadastro de livros](src/main/resources/static/img/Cadastro.png)
