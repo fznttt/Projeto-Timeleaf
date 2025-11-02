@@ -10,7 +10,7 @@
     <script>
         // Função para confirmação de exclusão
         function confirmDelete(event) {
-            if (!confirm("Você tem certeza de que deseja excluir este aluno?")) {
+            if (!confirm("Você tem certeza de que deseja excluir este livro?")) {
                 event.preventDefault();
             }
         }
@@ -52,8 +52,8 @@
             </div>
         </div>
         <div class="card-footer d-flex justify-content-between">
-            <span class="text-muted">Total de alunos: <span th:text="${#lists.size(livros)}"></span></span>
-            <a class="btn btn-sm btn-primary" th:href="@{/livros/add}">Adicionar Novo Aluno</a>
+            <span class="text-muted">Total de livros: <span th:text="${#lists.size(livros)}"></span></span>
+            <a class="btn btn-sm btn-primary" th:href="@{/livros/add}">Adicionar Novo Livro</a>
         </div>
     </div>
 </div>
