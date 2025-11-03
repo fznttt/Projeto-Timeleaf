@@ -48,7 +48,7 @@ A aplicação será iniciada na porta padrão do Spring Boot (8081) ou na porta 
 
 ### 1. Tela de Listagem (Home)
 
-![Lista de livros](src/main/resources/static/img/Livros%20cadastrados.png)
+![Lista de livros](src/main/resources/static/img/Lista.png)
 
 ### 2. Tela de Cadastro/Edição
 
